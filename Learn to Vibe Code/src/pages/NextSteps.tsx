@@ -24,7 +24,7 @@ export default function NextSteps() {
       <section>
         <h2>If you get stuck</h2>
         <p>
-          Contact your team contact and share the exact error or message you see
+          Reach out to your team and share the exact error or message you see
           (e.g. from the terminal or Cursor). That makes it much easier to
           help.
         </p>

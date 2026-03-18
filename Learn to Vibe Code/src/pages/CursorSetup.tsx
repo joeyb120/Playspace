@@ -7,6 +7,10 @@ export default function CursorSetup() {
       Cursor is a code editor with built in AI tools that help you ask questions, generate code, and make changes as you work.
       </p>
 
+      <p className="note">
+        <strong>Need help?</strong> Reach out in the Robots &amp; Pencils Slack channel <code>#ai-webpage-workshop</code> for support.
+      </p>
+
       <section>
         <h2>Step 1: Download and install</h2>
         <p>
@@ -37,7 +41,7 @@ export default function CursorSetup() {
         <p>
         Once you are signed in, open the folder where you want to work.
 
-Select ,<strong>File</strong>, then <strong>Open Folder</strong>, and choose your project folder. This might be a workspace folder or a repository you already cloned.
+Select <strong>File</strong>, then <strong>Open Folder</strong>, and choose your project folder. This might be a workspace folder or a repository you already cloned.
         </p>
       </section>
 
@@ -69,7 +73,7 @@ Select ,<strong>File</strong>, then <strong>Open Folder</strong>, and choose you
             Cursor from cursor.com. If it still fails, send your team contact the exact error message you see.
           </li>
           <li>
-            <strong>Sign is not working or session expired:</strong> <br /> Sign out and sign back in. You can also try a different browser during the sign in process. 
+            <strong>Sign-in is not working or session expired:</strong> <br /> Sign out and sign back in. You can also try a different browser during the sign in process. 
             If the issue continues, share the exact error message with your team contact.
           </li>
           <li>

@@ -9,6 +9,10 @@ export default function GitHubSetup() {
     <strong> browser</strong> (on GitHub) and some in the <strong>terminal</strong> (in Cursor).
   </p>
 
+  <p className="note">
+    <strong>Need help?</strong> Reach out in the Robots &amp; Pencils Slack channel <code>#ai-webpage-workshop</code> for support.
+  </p>
+
   <section>
     <h2>Part 1: Get ready on GitHub (in your browser)</h2>
 

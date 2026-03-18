@@ -4,6 +4,7 @@ export default function Home() {
   return (
     <div className="page-home">
       <h1>Learn to Vibe Code</h1>
+      <h3 className="home-subtitle">No coding experience required.</h3>
       <p className="lead">
         Start building with Cursor and GitHub, no matter your experience level.
         This short, guided course will help you set up a simple workflow so you
@@ -31,7 +32,6 @@ export default function Home() {
           Get Started
         </Link>
       </p>
-      <p className="home-note">No coding experience required.</p>
     </div>
   )
 }

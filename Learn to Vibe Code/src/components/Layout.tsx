@@ -30,6 +30,18 @@ export default function Layout() {
           ))}
         </ul>
       </nav>
+      <div className="hero" aria-hidden="true">
+        <img
+          src="/images/hero.jpg"
+          alt=""
+          onError={(e) => {
+            const el = e.currentTarget;
+            if (el.src.endsWith('hero.jpg')) {
+              el.src = '/images/hero.svg';
+            }
+          }}
+        />
+      </div>
       <main className="main">
         <Outlet />
       </main>
