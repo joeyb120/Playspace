@@ -69,3 +69,138 @@
 .nav-link:hover {
   text-decoration: underline;
 }
+
+/* Page content (Phase 2) */
+.main {
+  text-align: left;
+}
+
+.lead {
+  font-size: 1.1em;
+  margin-bottom: 1em;
+}
+
+.main section {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+.main section h2 {
+  margin-top: 1.25em;
+  margin-bottom: 0.5em;
+  padding-bottom: 0.25em;
+  border-bottom: 1px solid var(--border);
+}
+
+.main section h2:first-of-type {
+  margin-top: 0;
+}
+
+.main section h3 {
+  font-size: 1em;
+  font-weight: 600;
+  color: var(--text-h);
+  margin-top: 1em;
+  margin-bottom: 0.35em;
+}
+
+.main ul,
+.main ol {
+  margin: 0.5em 0 1em;
+  padding-left: 1.5em;
+}
+
+.main li {
+  margin-bottom: 0.35em;
+}
+
+.main pre {
+  background: var(--code-bg);
+  border-radius: 6px;
+  padding: 1em 1.25em;
+  overflow-x: auto;
+  margin: 0.75em 0 1em;
+  font-family: var(--mono);
+  font-size: 0.9em;
+  line-height: 1.4;
+}
+
+.main pre code {
+  padding: 0;
+  background: none;
+}
+
+.media-placeholder {
+  background: var(--code-bg);
+  border: 1px dashed var(--border);
+  border-radius: 6px;
+  padding: 1em 1.25em;
+  margin: 1em 0;
+  font-size: 0.9em;
+  color: var(--text);
+  font-style: italic;
+}
+
+.troubleshooting,
+.checklist {
+  margin-top: 2em;
+}
+
+.checklist-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.checklist-list li::before {
+  content: '☐ ';
+  margin-right: 0.5em;
+}
+
+.quick-ref pre {
+  margin-bottom: 0;
+}
+
+.note {
+  font-size: 0.95em;
+  color: var(--text);
+  margin-top: 1em;
+  padding: 0.75em 1em;
+  background: var(--accent-bg);
+  border-radius: 6px;
+  border-left: 3px solid var(--accent);
+}
+
+.cta {
+  display: inline-block;
+  padding: 0.6em 1.25em;
+  background: var(--accent);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 500;
+  margin-top: 0.5em;
+}
+
+.cta:hover {
+  filter: brightness(1.1);
+}
+
+.main kbd {
+  font-family: var(--mono);
+  font-size: 0.9em;
+  padding: 0.15em 0.4em;
+  background: var(--code-bg);
+  border-radius: 4px;
+  border: 1px solid var(--border);
+}
+
+.page-home {
+  text-align: center;
+}
+
+.page-home .lead,
+.page-home p {
+  max-width: 36em;
+  margin-left: auto;
+  margin-right: auto;
+}
