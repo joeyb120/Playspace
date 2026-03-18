@@ -1,0 +1,71 @@
+/* Layout and navigation for Learn to Vibe Code */
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  flex: 1;
+}
+
+.nav {
+  border-bottom: 1px solid var(--border);
+  padding: 12px 24px;
+}
+
+.nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 24px;
+  justify-content: center;
+}
+
+.nav a {
+  color: var(--text);
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.nav a:hover {
+  color: var(--text-h);
+}
+
+.nav a.active {
+  color: var(--accent);
+  font-weight: 500;
+}
+
+.main {
+  flex: 1;
+  padding: 32px 24px 48px;
+  max-width: 720px;
+  margin: 0 auto;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.nav-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 16px 24px;
+  border-top: 1px solid var(--border);
+  flex-wrap: wrap;
+}
+
+.nav-spacer {
+  flex: 1;
+}
+
+.nav-link {
+  color: var(--accent);
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
