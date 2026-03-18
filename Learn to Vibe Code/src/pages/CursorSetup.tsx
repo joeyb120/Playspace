@@ -4,16 +4,14 @@ export default function CursorSetup() {
       <h1>Cursor Setup</h1>
 
       <p className="lead">
-        Cursor is a code editor with built-in AI (Chat and Composer) so you can
-        ask questions and generate code as you work.
+      Cursor is a code editor with built in AI tools that help you ask questions, generate code, and make changes as you work.
       </p>
 
       <section>
-        <h2>Download and install</h2>
+        <h2>Step 1: Download and install</h2>
         <p>
-          Go to <a href="https://cursor.com" target="_blank" rel="noopener noreferrer">cursor.com</a> and
-          download Cursor for your system (macOS, Windows, or Linux). Install it
-          the same way you would any other app.
+          Go to <a href="https://cursor.com" target="_blank" rel="noopener noreferrer">cursor.com</a> and download Cursor for 
+          your computer. Choose the version for macOS, Windows, or Linux, then install it like you would any other application.
         </p>
         <p className="media-placeholder">
           [Screenshot: Cursor welcome / sign-in screen]
@@ -21,21 +19,27 @@ export default function CursorSetup() {
       </section>
 
       <section>
-        <h2>Sign in</h2>
+        <h2>Step 2: Sign in</h2>
         <p>
-          Open Cursor and sign in or create an account. You can use Google or
-          GitHub (or your organization’s preferred method) to sign in.
+        Open Cursor and sign in. If you do not already have an account, you can create one here. Most people sign 
+        in with Google or GitHub, but you can also use your organization’s preferred sign in method if needed.
         </p>
       </section>
 
       <section>
-        <h2>Open your project folder</h2>
+        <h2>Step 3: Open your project folder</h2>
         <p>
-          Use <strong>File → Open Folder</strong> (or the equivalent shortcut)
-          and choose your project folder (e.g. your workspace or a repo you
-          cloned). The terminal inside Cursor is the same one you’ll use later
-          for Git commands.
+        Once you are signed in, open the folder where you want to work.
+
+Select ,<strong>File</strong>, then <strong>Open Folder</strong>, and choose your project folder. This might be a workspace folder or a repository you already cloned.
         </p>
+      </section>
+
+      <section>
+        <h2>Step 4: Find the terminal</h2>
+        <p>
+        Inside Cursor, you will also use the built in terminal for Git 
+        commands later on. Once your folder is open, open the terminal so you can get familiar with where it is.</p>
         <p className="media-placeholder">
           [Screenshot: File → Open Folder, and terminal open in Cursor]
         </p>
@@ -45,28 +49,26 @@ export default function CursorSetup() {
       </section>
 
       <p className="note">
-        Cursor uses your code to provide suggestions. Don’t open repos or
-        folders you’re not allowed to share with the service.
+      Cursor uses your code to generate suggestions. Only open folders and repositories you are allowed to share with the service.
       </p>
 
       <section className="troubleshooting">
         <h2>Common issues</h2>
         <ul>
           <li>
-            <strong>Cursor won’t open:</strong> Restart your computer or
-            reinstall from cursor.com. If it still fails, contact your team
-            contact with the exact error message.
+            <strong>Cursor will not open:</strong> 
+            Restart your computer and try again. If that does not work, reinstall 
+            Cursor from cursor.com. If it still fails, send your team contact the exact error message you see.
           </li>
           <li>
-            <strong>Sign-in fails or session expired:</strong> Sign out and
-            sign back in, or try a different browser for the auth flow. If it
-            persists, share the exact message with your team contact.
+            <strong>Sign is not working or session expired:</strong> 
+            Sign out and sign back in. You can also try a different browser during the sign in process. 
+            If the issue continues, share the exact error message with your team contact.
           </li>
           <li>
-            <strong>Can’t find Open Folder:</strong> Look under the
-            <strong> File</strong> menu (macOS/Windows) or the application menu.
-            If your layout looks different, check Cursor’s documentation for the
-            current menu location.
+            <strong>You cannot find Open Folder:</strong> Look under the <strong>File</strong>menu on macOS or 
+            Windows, or under the application menu depending on your setup. If your layout looks 
+            different, check Cursor documentation for the most current menu location.
           </li>
         </ul>
       </section>
