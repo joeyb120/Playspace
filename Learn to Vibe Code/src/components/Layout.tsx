@@ -45,6 +45,7 @@ export default function Layout() {
             {nextRoute.label} →
           </Link>
         )}
+        <span className="footer-site-label" aria-hidden="true">Learn to Vibe Code</span>
       </footer>
     </div>
   )

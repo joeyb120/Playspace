@@ -56,17 +56,15 @@ Select ,<strong>File</strong>, then <strong>Open Folder</strong>, and choose you
         <h2>Common issues</h2>
         <ul>
           <li>
-            <strong>Cursor will not open:</strong> 
-            Restart your computer and try again. If that does not work, reinstall 
+            <strong>Cursor will not open:</strong> <br />Restart your computer and try again. If that does not work, reinstall 
             Cursor from cursor.com. If it still fails, send your team contact the exact error message you see.
           </li>
           <li>
-            <strong>Sign is not working or session expired:</strong> 
-            Sign out and sign back in. You can also try a different browser during the sign in process. 
+            <strong>Sign is not working or session expired:</strong> <br /> Sign out and sign back in. You can also try a different browser during the sign in process. 
             If the issue continues, share the exact error message with your team contact.
           </li>
           <li>
-            <strong>You cannot find Open Folder:</strong> Look under the <strong>File</strong>menu on macOS or 
+            <strong>You cannot find Open Folder:</strong> <br />Look under the <strong>File</strong> menu on macOS or 
             Windows, or under the application menu depending on your setup. If your layout looks 
             different, check Cursor documentation for the most current menu location.
           </li>
