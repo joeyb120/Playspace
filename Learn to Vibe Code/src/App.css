@@ -151,6 +151,25 @@
   font-style: italic;
 }
 
+.media-figure {
+  margin: 1.5em 0;
+}
+
+.media-figure img,
+.media-figure video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+}
+
+.media-figure figcaption {
+  margin-top: 0.5em;
+  font-size: 0.9em;
+  color: var(--text);
+}
+
 .troubleshooting,
 .checklist {
   margin-top: 2em;

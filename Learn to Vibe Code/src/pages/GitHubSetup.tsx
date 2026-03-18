@@ -62,9 +62,15 @@ export default function GitHubSetup() {
       </li>
     </ul>
 
-    <p className="media-placeholder">
-      [Screenshot: New repository form with checkboxes unchecked]
-    </p>
+    <figure className="media-figure">
+      <img
+        src="/images/github-new-repo.png"
+        alt="New repository form with checkboxes unchecked"
+        width="640"
+        height="360"
+      />
+      <figcaption>New repository form with checkboxes unchecked</figcaption>
+    </figure>
 
     <h3>Step 3: Copy the repository URL</h3>
     <ul>
@@ -82,9 +88,15 @@ export default function GitHubSetup() {
       <li>Keep this handy. You will use it in Part 2.</li>
     </ul>
 
-    <p className="media-placeholder">
-      [Screenshot: Quick setup box with HTTPS URL]
-    </p>
+    <figure className="media-figure">
+      <img
+        src="/images/github-quick-setup.png"
+        alt="Quick setup box with HTTPS URL"
+        width="640"
+        height="360"
+      />
+      <figcaption>Quick setup box with HTTPS URL</figcaption>
+    </figure>
   </section>
 
   <section>
@@ -146,12 +158,32 @@ export default function GitHubSetup() {
       </li>
     </ul>
 
-    <p className="media-placeholder">
-      [Screenshot: Terminal showing git init through git push, optional PAT creation screen]
-    </p>
-    <p className="media-placeholder">
-      [Video: Full GitHub setup walkthrough, create repo, run commands, handle PAT (about 3 to 4 minutes)]
-    </p>
+    <figure className="media-figure">
+      <img
+        src="/images/github-terminal-push.png"
+        alt="Terminal showing git init through git push"
+        width="640"
+        height="360"
+      />
+      <figcaption>Terminal showing git init through git push</figcaption>
+    </figure>
+    <figure className="media-figure">
+      <video
+        controls
+        width="640"
+        height="360"
+        poster="/images/video-placeholder.svg"
+        preload="metadata"
+      >
+        <source src="/videos/github-setup.mp4" type="video/mp4" />
+        <p>
+          Full GitHub setup walkthrough (~3–4 min). Add{" "}
+          <code>github-setup.mp4</code> to <code>public/videos/</code> or use a
+          Loom/YouTube embed.
+        </p>
+      </video>
+      <figcaption>Video: Full GitHub setup — create repo, run commands, handle PAT (~3–4 min)</figcaption>
+    </figure>
   </section>
 
   <p>

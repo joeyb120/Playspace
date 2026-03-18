@@ -13,9 +13,15 @@ export default function CursorSetup() {
           Go to <a href="https://cursor.com" target="_blank" rel="noopener noreferrer">cursor.com</a> and download Cursor for 
           your computer. Choose the version for macOS, Windows, or Linux, then install it like you would any other application.
         </p>
-        <p className="media-placeholder">
-          [Screenshot: Cursor welcome / sign-in screen]
-        </p>
+        <figure className="media-figure">
+          <img
+            src="/images/cursor-sign-in.png"
+            alt="Cursor welcome or sign-in screen"
+            width="640"
+            height="360"
+          />
+          <figcaption>Cursor welcome / sign-in screen</figcaption>
+        </figure>
       </section>
 
       <section>
@@ -40,12 +46,32 @@ Select ,<strong>File</strong>, then <strong>Open Folder</strong>, and choose you
         <p>
         Inside Cursor, you will also use the built in terminal for Git 
         commands later on. Once your folder is open, open the terminal so you can get familiar with where it is.</p>
-        <p className="media-placeholder">
-          [Screenshot: File → Open Folder, and terminal open in Cursor]
-        </p>
-        <p className="media-placeholder">
-          [Video: Cursor setup walkthrough — open app, sign in, open folder (~2 min)]
-        </p>
+        <figure className="media-figure">
+          <img
+            src="/images/cursor-open-folder-terminal.png"
+            alt="File menu Open Folder and terminal open in Cursor"
+            width="640"
+            height="360"
+          />
+          <figcaption>File → Open Folder, and terminal open in Cursor</figcaption>
+        </figure>
+        <figure className="media-figure">
+          <video
+            controls
+            width="640"
+            height="360"
+            poster="/images/video-placeholder.svg"
+            preload="metadata"
+          >
+            <source src="/videos/cursor-setup.mp4" type="video/mp4" />
+            <p>
+              Cursor setup walkthrough — open app, sign in, open folder (~2 min).
+              Add <code>cursor-setup.mp4</code> to <code>public/videos/</code> or
+              use a Loom/YouTube embed.
+            </p>
+          </video>
+          <figcaption>Video: Cursor setup walkthrough — open app, sign in, open folder (~2 min)</figcaption>
+        </figure>
       </section>
 
       <p className="note">
