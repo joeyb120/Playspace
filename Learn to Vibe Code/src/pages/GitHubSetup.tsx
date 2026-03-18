@@ -162,8 +162,6 @@ export default function GitHubSetup() {
       <img
         src="/images/github-terminal-push.png"
         alt="Terminal showing git init through git push"
-        width="640"
-        height="360"
       />
       <figcaption>Terminal showing git init through git push</figcaption>
     </figure>
