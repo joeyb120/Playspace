@@ -165,23 +165,6 @@ export default function GitHubSetup() {
       />
       <figcaption>Terminal showing git init through git push</figcaption>
     </figure>
-    <figure className="media-figure">
-      <video
-        controls
-        width="640"
-        height="360"
-        poster="/images/video-placeholder.svg"
-        preload="metadata"
-      >
-        <source src="/videos/github-setup.mp4" type="video/mp4" />
-        <p>
-          Full GitHub setup walkthrough (~3–4 min). Add{" "}
-          <code>github-setup.mp4</code> to <code>public/videos/</code> or use a
-          Loom/YouTube embed.
-        </p>
-      </video>
-      <figcaption>Video: Full GitHub setup — create repo, run commands, handle PAT (~3–4 min)</figcaption>
-    </figure>
   </section>
 
   <p>

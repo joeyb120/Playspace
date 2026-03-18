@@ -55,23 +55,6 @@ Select ,<strong>File</strong>, then <strong>Open Folder</strong>, and choose you
           />
           <figcaption>File → Open Folder, and terminal open in Cursor</figcaption>
         </figure>
-        <figure className="media-figure">
-          <video
-            controls
-            width="640"
-            height="360"
-            poster="/images/video-placeholder.svg"
-            preload="metadata"
-          >
-            <source src="/videos/cursor-setup.mp4" type="video/mp4" />
-            <p>
-              Cursor setup walkthrough — open app, sign in, open folder (~2 min).
-              Add <code>cursor-setup.mp4</code> to <code>public/videos/</code> or
-              use a Loom/YouTube embed.
-            </p>
-          </video>
-          <figcaption>Video: Cursor setup walkthrough — open app, sign in, open folder (~2 min)</figcaption>
-        </figure>
       </section>
 
       <p className="note">
